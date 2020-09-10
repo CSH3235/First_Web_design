@@ -2,6 +2,7 @@ html
 {
     height: 100%; /**/
     overflow: hidden; /**/
+    
 }
 
 
@@ -16,9 +17,6 @@ body
     perspective: 1px;
     transform-style: preserve-3d;
     height: 100%;
-    overflow-y: scroll;
-    overflow-x: hidden;
-
 }
 
 img /* 이미지 크기 */
@@ -67,9 +65,6 @@ header::before
     background-image: url(img/main.png);
     background-size: cover;
     transform-origin: center center 0;
-    transform: translateZ(-1px) scale(2);
-    z-index: -1;
-    min-height: 100vh;
 }
 
 header *
@@ -116,10 +111,9 @@ header *
 
 
 
-
 .toggle
 {
-    position: absolute;
+    position: absolute;  
     top: 5%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -179,7 +173,6 @@ header *
     top: 50%;
     transition-delay: 1s;
 }
-
 
 
 
