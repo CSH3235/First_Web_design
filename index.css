@@ -62,7 +62,7 @@ header::before
     right: 0;
     top: 0;
     display: block;
-    background-image: url(img/main.png);
+    background-image: url(img/index.png);
     background-size: cover;
     transform-origin: center center 0;
 }
